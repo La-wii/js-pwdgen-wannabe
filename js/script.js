@@ -1,11 +1,16 @@
-var testo = prompt('Nome');
-console.log(testo);
+var nome = prompt('Nome');
+console.log(nome);
 
-var testo = prompt('Cognome');
-console.log(testo);
+var cognome = prompt('Cognome');
+console.log(cognome);
 
-var testo = prompt('Colore preferito');
-console.log(testo);
+var colore = prompt('Colore preferito');
+console.log(colore);
+
+var password = nome + cognome + colore + '21';
+console.log(password);
+
+// test 1
+document.writeln(password)
 
 
-alert('nomecognomecolorepreferito21')
