@@ -1,18 +1,20 @@
 var nome = prompt('Nome');
-console.log(nome);
+// console.log(nome);
 
 var cognome = prompt('Cognome');
-console.log(cognome);
+// console.log(cognome);
 
 var colore = prompt('Colore preferito');
-console.log(colore);
+// console.log(colore);
 
 var password = nome + cognome + colore + '21';
-console.log(password);
+password = password.toLowerCase();
+// console.log(password);
 
 // test 1
 // document.writeln(password)
 
-document.getElementById('password').innerHTML = password;   
+document.getElementById('password').innerHTML = password;  
+
 
 
