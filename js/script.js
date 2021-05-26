@@ -11,6 +11,8 @@ var password = nome + cognome + colore + '21';
 console.log(password);
 
 // test 1
-document.writeln(password)
+// document.writeln(password)
+
+document.getElementById('password').innerHTML = password;
 
 
